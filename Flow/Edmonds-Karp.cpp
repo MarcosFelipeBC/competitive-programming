@@ -37,7 +37,10 @@ int bfs(int s, int t){
 	while (!q.empty()){
 		int u = q.front().first;
 		int flow = q.front().second;
-		if(u == t) f = flow; //here I already have the minimum capacity
+		if(u == t) {
+			f = flow; //here I already have the minimum capacity
+			break;
+		}
 		q.pop();
 		for (int e : g[u]){
 			int v = edges[e].to, cap = edges[e].c - edges[e].f;
