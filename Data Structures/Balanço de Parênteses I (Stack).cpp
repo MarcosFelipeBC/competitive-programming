@@ -17,7 +17,7 @@ int main(){
 			}
 			else if(str[i] == '(') s.push('(');
 		}
-		while (!s.empty()) s.pop(), ans = false;
+		if (!s.empty()) s.pop(), ans = false;
 		puts((ans) ? "correct" : "incorrect");
 	}
 }
