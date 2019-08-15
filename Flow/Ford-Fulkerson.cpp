@@ -1,5 +1,4 @@
-//Ford Fulkerson algorithm to solve flow problems
-//Usually enough for MATCHING PROBLEMS
+//Ford-Fulkerson algorithm to solve maximum flow problems
 //Complexity - O(f * (V+E)) - flow times DFS
 
 #include <bits/stdc++.h>
