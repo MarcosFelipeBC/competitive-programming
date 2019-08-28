@@ -1,4 +1,5 @@
 //https://www.urionlinejudge.com.br/judge/pt/problems/view/1069
+
 #include <bits/stdc++.h>
 using namespace std;
 
