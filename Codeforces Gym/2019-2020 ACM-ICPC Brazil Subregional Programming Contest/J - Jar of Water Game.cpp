@@ -1,3 +1,5 @@
+//https://codeforces.com/gym/102346/problem/J
+
 #include <bits/stdc++.h>
 using namespace std;
 
