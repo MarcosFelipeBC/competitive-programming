@@ -1,3 +1,4 @@
+//https://www.spoj.com/problems/MKTHNUM/
 #include <bits/stdc++.h>
 #define optimize ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define INF 2000000020
